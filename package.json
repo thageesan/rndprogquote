@@ -1,0 +1,26 @@
+{
+  "name": "rndprogquote",
+  "version": "1.0.0",
+  "description": "Random Programming Quote",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "webpack --config build/webpack.config.dev.js",
+    "server": "node server.js",
+    "start": "webpack serve --open --config build/webpack.config.dev.js"
+  },
+  "author": "Thageesan Thanabalasingam",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.13"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "vue-loader": "^15.9.7",
+    "vue-template-compiler": "^2.6.13",
+    "vue-template-loader": "^1.1.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
