@@ -1,4 +1,4 @@
-import QuotableAPI from 'api/quotable';
+import QuotableAPI from "api/quotable";
 
 const quotableApi = new QuotableAPI();
 
